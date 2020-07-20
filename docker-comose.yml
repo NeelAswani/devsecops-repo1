@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+ neelamapp1:  #this is my first service
+  image: nginx:neelam
+  build: https://github.com/NeelAswani/devsecops-repo1.git
+  container_name: neelam
+  ports:
+   - "1991:80"
